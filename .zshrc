@@ -86,3 +86,8 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 export PATH="/usr/local/sbin:$PATH"
+
+# Vim mode for ZSH
+bindkey -v
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
